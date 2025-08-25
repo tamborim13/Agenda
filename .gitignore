@@ -8,6 +8,7 @@ recursos.txt
 static/
 media/
 project/local_settings.py
+comandos/
 
 # Backup files #
 *.bak
