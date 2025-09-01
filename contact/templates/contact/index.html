@@ -20,8 +20,10 @@
             <tbody>
                 {% for contact in contacts %}
                     <tr class="table-row">
-                        <td class="table-cell">
-                            <a href="#" class="table-link">
+                        <td class="table-cel">
+                            <a 
+                            class="table-link"
+                            href="{% url "contact:contact" contact.id %}">
                                 {{contact.id}}
                             </a>
                         </td>
