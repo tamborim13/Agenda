@@ -1,6 +1,7 @@
 from django.core.exceptions import ValidationError
 from django import forms
 from . import models
+from django.contrib.auth.forms import UserCreationForm
 
 class ContactForm(forms.ModelForm):
     picture = forms.ImageField(
@@ -10,7 +11,6 @@ class ContactForm(forms.ModelForm):
             }
         )
     )
-
 
     class Meta:
         model = models.Contact
@@ -49,3 +49,6 @@ class ContactForm(forms.ModelForm):
             )
 
         return first_name
+    
+class registerForm(UserCreationForm):
+    ...
