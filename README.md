@@ -10,7 +10,6 @@ Permite criar, visualizar, editar e excluir contatos, com uma interface moderna,
 - **Python 3.13**
 - **Django 5.2**
 - **HTML5 / CSS3**
-- **Bootstrap**
 - **SQLite3**
 
 ---
