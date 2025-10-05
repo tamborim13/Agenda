@@ -15,4 +15,7 @@ urlpatterns = [ #Quanto mais especifica a url coloca ela pra cima.
 
     #user
     path('user/create/', views.register, name='register'), #Porque contact_id? porque esta lá na view!
+    path('user/login/', views.login_view, name='login'), #Porque contact_id? porque esta lá na view!
+    path('user/logout/', views.logout_view, name='logout'), #Porque contact_id? porque esta lá na view!
+    path('user/update/', views.user_update, name='user_update'), #Porque contact_id? porque esta lá na view!
 ]
