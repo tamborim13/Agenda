@@ -41,7 +41,7 @@ Permite criar, visualizar, editar e excluir contatos, com uma interface moderna,
 
 **Giovanni Tamborim**  
 💻 Desenvolvido como projeto de aprendizado em Django.  
-📧 [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
+📧 [tamborimgiovanni2017@gmail.com](tamborimgiovanni2017@gmail.com)
 
 ---
 
